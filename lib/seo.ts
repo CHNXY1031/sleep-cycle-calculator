@@ -1,6 +1,6 @@
 import { generateTimeSlugs } from "./sleepCalculator";
 
-export const BASE_URL = "https://sleep-cycle-calculator.vercel.app";
+export const BASE_URL = "https://sleep-cycle-calculator-iota.vercel.app";
 export const TIME_SLUGS = generateTimeSlugs(15);
 
 export const POPULAR_WAKE_SLUGS = [
