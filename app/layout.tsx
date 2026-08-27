@@ -72,7 +72,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
           <div className="flex flex-col justify-between gap-4 sm:flex-row">
             <p>© {new Date().getFullYear()} Sleep Cycle Calculator.</p>
             <p>For education only — not medical advice.</p>
-            <a href="https://uptime-pulse-saas.vercel.app/?utm_source=sleep-cycle-calculator&amp;utm_medium=referral&amp;utm_campaign=protected_by" target="_blank" rel="noopener noreferrer" className="text-xs text-white/35 underline decoration-white/15 underline-offset-4 transition hover:text-emerald">Protected by UptimePulse — Free Website &amp; SSL Monitor</a>
+            <a href="https://uptime-pulse-saas.vercel.app/?utm_source=sleep-cycle-calculator&amp;utm_medium=referral&amp;utm_campaign=protected_by" target="_blank" rel="noopener noreferrer nofollow" className="text-xs text-white/35 underline decoration-white/15 underline-offset-4 transition hover:text-emerald">Protected by UptimePulse — Free Website &amp; SSL Monitor</a>
           </div>
         </footer>
       </body>
